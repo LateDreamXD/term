@@ -1,0 +1,24 @@
+{
+  "name": "term",
+  "version": "0.1.0-alpha.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.10",
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "@xterm/addon-fit": "^0.11.0",
+    "@xterm/xterm": "^6.0.0",
+    "vue": "^3.5.39"
+  },
+  "devDependencies": {
+    "@ffmpeg/types": "^0.12.4",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "vite": "^8.1.2"
+  }
+}
